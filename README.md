@@ -5,3 +5,8 @@ pkg install -y wget
 wget https://raw.githubusercontent.com/drygdryg/OneShot_Termux_installer/master/installer.sh
 bash installer.sh
 ```
+### Run
+Disable Wi-Fi in the system settings and run:
+```
+tsudo python oneshot.py -i wlan0 -K
+```
