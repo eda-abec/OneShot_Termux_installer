@@ -8,5 +8,5 @@ bash installer.sh
 ### Run
 Disable Wi-Fi in the system settings and run:
 ```
-tsudo python oneshot.py -i wlan0 -K
+sudo python oneshot.py -i wlan0 -K
 ```
