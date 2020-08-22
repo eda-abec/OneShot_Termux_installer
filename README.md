@@ -1,4 +1,4 @@
-## [OneShot](https://github.com/drygdryg/OneShot) installer for [Termux](https://termux.com/)
+## [OneShot](https://github.com/eda-abec/OneShot-Termux) installer for [Termux](https://termux.com/)
 ### Setup
 ```
 pkg install -y wget
