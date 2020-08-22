@@ -8,10 +8,12 @@ esac
 pkg install -y root-repo 
 pkg install -y wget tsu python wpa-supplicant iw
 
+# keep upstream
 wget https://raw.githubusercontent.com/drygdryg/OneShot_Termux_installer/master/binaries/$architecture/pixiewps -O $PREFIX/bin/pixiewps
 chmod +x $PREFIX/bin/pixiewps
 
-wget https://raw.githubusercontent.com/drygdryg/OneShot/master/oneshot.py
+wget https://raw.githubusercontent.com/eda-abec/OneShot-Termux/termux/oneshot.py
+# keep upstream
 wget https://raw.githubusercontent.com/drygdryg/OneShot/master/vulnwsc.txt
 
 chmod +x ./oneshot.py
